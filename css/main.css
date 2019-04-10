@@ -45,6 +45,12 @@ body {
   margin-top: 20%;
 }
 
+.author {
+ text-align: right;
+ font-style: italic;
+ padding-right: 25px;
+}
+
 footer {
   background-color: #343a40!important;
   margin-top: 100px;
