@@ -36,7 +36,7 @@ body {
   padding: 5px;
 }
 
-.card>button {
+{
   width: 80%;
   margin: 15px auto;
 }
@@ -59,4 +59,28 @@ footer {
 footer p {
   color: rgba(255, 255, 255, 0.75);
   padding: 5%;
+}
+
+
+/*************************************************
+
+CSS under 800px
+
+***************************************************/
+
+@media only screen and (max-width: 800px) {
+  .description {
+    margin-top: 0;
+  }
+
+  .container>.row{
+    margin-top: 25px;
+  }
+}
+
+
+@media only screen (min-width: 900px) and (max-width: 1100px) {
+  p {
+    font-weight: bold;
+  }
 }
